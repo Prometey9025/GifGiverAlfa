@@ -17,7 +17,7 @@ public class Data {
     }
 
     @PostConstruct
-    public void firstDataInit() {
+    public void firstData() {
         exchangeRatesService.refreshRates();
     }
 
